@@ -1,0 +1,166 @@
+body{
+    background-color: black;
+    background-image: url('../img/wp.gif');
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+header{
+    font-family: 'Bungee Outline', cursive;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    margin: 30px auto 10px auto;
+}
+h3{
+    font-size: 30px;
+}
+.container{
+    margin: 10px auto;
+    width: 800px;
+    position: relative;
+    display: grid;
+    min-height: 500px;
+    border: inset 5px rgb(50, 116, 112);
+    background: rgba(50, 116, 112, .85);
+    border-radius: 10px;
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-weight: 500;
+}
+.nav{
+    position: absolute;
+    z-index: 2;
+    top: 0px;
+    left: -120px;
+    text-align: center;
+    background: transparent;
+}
+div .btn{
+    width: 100px;
+    height: 30px;
+    color: black;
+    margin: 10px;
+    display: grid;
+    border-radius: 10px;
+}
+div .btn{
+    background: rgba(189, 165, 214, .5);
+    border: rgba(189, 165, 214, .7) inset 2px;
+    font-weight: 500;
+}
+div .btn:hover{
+    background: rgba(189, 165, 214, 1);
+    border: rgba(189, 165, 214, 1) inset 2px;
+    font-weight: 500;
+}
+/*div .btn:nth-child(5n+0){
+    background: rgba(0, 156, 214, .5);
+    border: rgba(0, 156, 214, .7) inset 2px;
+    font-weight: 500;
+}
+div .btn:nth-child(5n+1){
+    background: rgba(189, 165, 214, .5);
+    border: rgba(189, 165, 214, .7) inset 2px;
+    font-weight: 500;
+}
+div .btn:nth-child(5n+2){
+    background: rgba(255, 239, 0, .5);
+    border: rgba(255, 239, 0, .7) inset 2px;
+    font-weight: 500;
+}
+div .btn:nth-child(5n+3){
+    background: rgba(247, 115, 66, .5);
+    border: rgba(247, 115, 66, .7) inset 2px;
+    font-weight: 500;
+}
+div .btn:nth-child(5n+4){
+    background: rgba(8, 190, 156, .5);
+    border: rgba(8, 190, 156, .7) inset 2px;
+    font-weight: 500;
+}
+div .btn:nth-child(5n+0):hover{
+    background: rgb(0, 156, 214);
+    border: rgba(0, 156, 214, 1) inset 2px;
+    font-weight: 800;
+}
+div .btn:nth-child(5n+1):hover{
+    background: rgb(189, 165, 214);
+    border: rgba(189, 165, 214, 1) inset 2px;
+    font-weight: 800;
+}
+div .btn:nth-child(5n+2):hover{
+    background: rgb(255, 239, 0);
+    border: rgba(255, 239, 0, 1) inset 2px;
+    font-weight: 800;
+}
+div .btn:nth-child(5n+3):hover{
+    background: rgb(247, 115, 66);
+    border: rgba(247, 115, 66, 1) inset 2px;
+    font-weight: 800;
+}
+div .btn:nth-child(5n+4):hover{
+    background: rgb(8, 190, 156);
+    border: rgba(8, 190, 156, 1) inset 2px;
+    font-weight: 800;
+} */
+.btn p{
+    justify-self: center;
+    align-self: center;
+    pointer-events: none;
+}
+.resultswrapper{
+    width: 95%;
+    height: 95%;
+    justify-self: center;
+    align-self: center;
+    display: grid;
+    justify-items: center;
+}
+.results{
+    justify-self: center;
+    margin: 10px 0 10px 50px;
+    text-align: center;
+}
+.inputpanel{
+    position: absolute;
+    top: 0;
+    right: -20px;
+    text-align: center;
+    background: transparent;
+}
+.inputpanel button{
+    width: 70px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.inputpanel input{
+    border-radius: 10px;
+    border: none;
+}
+#favInput, #searchInput, .searchBtn, .favBtn{
+    position: absolute;
+}
+#favInput{
+    position: absolute;
+    top: 100px;
+    left: 0px;
+}
+#searchInput{
+    position: absolute;
+    top: 20px;
+    left: 0px;
+}
+.searchBtn{
+    position: absolute;
+    top: 45px;
+    left: 100px;
+}
+.favBtn{
+    position: absolute;
+    top: 125px;
+    left: 100px;
+}
+nav div span:hover{
+    font-size: 100px;
+}

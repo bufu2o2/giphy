@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jake Huang's Giphy Homework</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link class = "styles" rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Outline" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://www.gstatic.com/firebasejs/5.8.6/firebase.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/giphy.js"></script>
+
+</head>
+<body>
+    <header>
+        <h1><span class = "GIPHY">GIPHY</span> <span class = "base">Base</span></h1>
+        <h3>by Jake Huang</h3>
+    </header>
+    <div class = "container">
+        <div class = "nav"></div>
+        <div class = "resultswrapper">
+            <div class = "results"></div>
+        </div>
+        <div class = "inputpanel">
+            <div class = "search">
+                <input id = "searchInput" type="text" placeholder = "   Search..." name = "search">
+                <button type="submit" class = "searchBtn"><i class="fab fa-searchengin"></i></button>
+            </div>
+            <div class = "favorite">
+                <input id = "favInput" type="text" placeholder = "   Add Favorite" name = "search">
+                <button type="submit" class = "favBtn"><i class="far fa-kiss-wink-heart"></i></button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
